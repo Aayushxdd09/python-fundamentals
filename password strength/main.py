@@ -1,7 +1,7 @@
 password = input("Enter your password: ")
 
 if(len(password) < 8):
-    print("Password lenght too short")
+    print("Password length too short")
     print("Try again")
     exit()
 
