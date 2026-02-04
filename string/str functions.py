@@ -7,9 +7,8 @@ print(name.upper())
 print(name.lower())
 
 
-word= "Hello World"
+word= "Hello World World World"
 index=word.find("e")
 print(index)
-
 replaced_string= word.replace("World", "Python")
 print(replaced_string)

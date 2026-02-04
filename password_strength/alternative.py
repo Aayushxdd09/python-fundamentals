@@ -30,3 +30,5 @@ elif conditions_met == 2:
     print("Medium")
 elif conditions_met == 3:
     print("Strong")
+
+
