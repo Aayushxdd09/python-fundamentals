@@ -1,6 +1,7 @@
 class Calculator():
     def __init__(self, num):
         self.num = num
+        print(f"The  number is {num}")
 
     def square(self):
         print(f"The square is {self.num*self.num}")
@@ -13,7 +14,7 @@ class Calculator():
 
     @staticmethod
     def greet():      
-            print("Good Morning")
+            print("Alright then:")
 
 
 a = Calculator(4)
