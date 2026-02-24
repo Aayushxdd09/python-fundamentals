@@ -2,7 +2,7 @@ class Employee:
     
     language = "python"
     salary = 120000
-
+    
     def __init__(self, name, salary, language):    #Its called dunder method and gets called automatically
         
         self.name = name
@@ -15,10 +15,8 @@ class Employee:
         print(f"The language is {self.language}. The salary is {self.salary}")
 
 
-harry = Employee("Harry", 130000, "Javascript")
+harry = Employee("Harry", 1300000, "Javascript")
 
 harry.getinfo()
 print(harry.name, harry.language)
-
-
 
